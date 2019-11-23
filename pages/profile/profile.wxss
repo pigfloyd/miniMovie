@@ -1,0 +1,17 @@
+
+.profile-img{
+  margin: 0 auto; 
+  margin-top: 150rpx;
+  text-align: center;
+  height:200rpx;
+  width: 200rpx;
+  border-radius: 50%; 
+  overflow: hidden;
+}
+.name{
+  margin-top: 30rpx;
+  font-weight: bold;
+  font-size: 40rpx;
+  text-align: center;
+  color: #666;
+}

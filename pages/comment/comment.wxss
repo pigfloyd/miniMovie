@@ -1,0 +1,69 @@
+.img-container{
+  height:400rpx;
+  filter: blur(20rpx);
+  opacity: 0.7;
+}
+.mask{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height: 400rpx;
+  background-color: #333;
+  z-index: -1;
+}
+.cover{
+  position: absolute;
+  top:0;
+  left:0;
+  height:350rpx;
+  width:300rpx;
+  margin: 25rpx;
+}
+.info{
+  position: absolute;
+  top: 0;
+  right:0;
+  height:350rpx;
+  width:370rpx;
+  margin: 25rpx;
+}
+.title{
+  font-weight: bold;
+  font-size: 50rpx;
+  color: black;
+  margin-bottom: 20rpx;
+}
+.or-title{
+  color: black;
+  font-size: 30rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; 
+}
+.score{
+  color: #faaf00;
+  font-weight: bold;
+  font-size: 40rpx;
+  margin-bottom: 30rpx;
+  margin-top: 30rpx;
+}
+.summary{
+  margin-top: 20rpx;
+  font-size:32rpx;
+  color: #666;
+}
+.dir{
+  margin-top: 20rpx;
+}
+.comment{
+  margin: 10rpx;
+  text-align: center;
+  width:100%;
+  border-bottom: 1px solid #666;
+}
+.tag{
+  font-size: 45rpx;
+  font-family: bold;
+  color: #333;
+}

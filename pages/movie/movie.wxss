@@ -1,0 +1,33 @@
+.movie{
+  display: flex;
+  height:300rpx;
+  padding: 10rpx;
+}
+.movie-img{
+  width:200rpx;
+  height:100%;
+  margin-right: 20rpx;
+  border-radius: 8rpx;  
+}
+.movie-info{
+  flex:1
+}
+.movie-title{
+  font-size: 37rpx;
+  font-weight: bold;
+  color: #666;
+}
+.movie-score{
+  color: #faaf00;
+  font-weight: bold;
+}
+.btn{
+  display: inline-block;
+  background-color: red;
+  font-size: 26rpx;
+  color: white;
+  height:50rpx;
+  font-weight: bold;
+  line-height: 50rpx;
+  margin-top:20rpx;
+}
